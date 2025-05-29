@@ -1,0 +1,126 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      
+    }
+    header {
+      background: linear-gradient(to bottom, #800000, #000);
+      color: #000;
+      text-align: center;
+      padding: 40px 20px;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+    }
+    header h1 {
+      color: #ffffffa8;
+      font-size: 48px;
+      margin: 0;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      color: #ffffffa8;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+   nav a:hover {
+      color: #ff0000a8;
+      font-size: 20px;
+      transition: 0.3s linear;
+      
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: #fff;
+      border-radius: 10px;
+    }
+    .content h2 {
+      color: #990000;
+      text-align: center;
+      font-size: 32px;
+    }
+    .content p {
+      font-size: 20px;
+      line-height: 1.6;
+      color: #ffffffa8;
+      
+    }
+    .band-photo {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .band-photo img {
+      width: 400px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+  .band-photo img:hover {
+      box-shadow: 0 0 15px 10px #f4f4f4;
+      transition: 1s linear;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #555;
+    }
+
+  body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgC_Nbqk4LVWTV0J23ob1_hM7WZOuww_ou8EIoGBdhLWleceM-hl-gmpuvuuSLbcN9GcU&usqp=CAU);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:rgb(128, 0, 0) ;
+  }
+
+  .content {
+    background-color: rgba(0, 0, 0, 0.90); 
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 5px;
+  }
+
+   h1, h2, h3 {
+    color: rgb(77, 0, 0);
+    text-align: center;
+  }
+
+  p {
+    line-height: 0.6;
+    color: rgb(0, 0, 0);
+  }
+
+  .album-section {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .album-section img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .album-section img:hover {
+    transform: scale(1.1) rotate(3deg);
+    box-shadow: 0 0 15px 10px #f4f4f4;
+    transition: 0.5s linear;
+  }
